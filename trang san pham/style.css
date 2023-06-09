@@ -30,10 +30,29 @@ body{
     margin-right:6vw;
     margin-left:6vw;
     display:flex;
+    border:solid;
 }
 .sp1{
     width:30vw;
     height:auto;
+}
+.detail{
+    margin-left:4vw;
+}
+.l1{
+    font-size:4vw;
+    font-family: 'Montserrat';
+    font-weight: 550;
+}
+.price{
+    font-family:'Alice';
+    color: #8B0304;
+    font-size:3vw;
+}
+.khoi-luong{
+    font-family:'Montserrat';
+    font-size:2vw;
+    margin-top:1vw;
 }
 .product-detail{
     width: 45vw;
@@ -42,28 +61,140 @@ body{
 }
 .buy-button{
     display:flex;
-    margin-left:4vw;
     height:4vw;
-    margin-top:3vw;
+    margin-top:2vw;
 }
-.them{
-    width:12vw;
-    height:3.5vw;
+.Butt2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:15vw;
+    height:5.5vw;
+    border-radius: 15px;
 }
-.buy-now{
-    width:12vw;
-    height:3.5vw;
+.Butt1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-right:3vw;
+    width:20vw;
+    height:5.5vw;
+    border-radius: 15px;
+}
+.l2{
+    color:white;
+    font-family:'Poppins';
+    font-size:1.9vw;
+    font-weight:700;
 }
 .buy-button button:hover{
     cursor: pointer;
 }
 .buy-button button{
-    background-color: white;
+    background-color: #8B0304;
     border:none;
 }
-
 .third{
+    margin-top:6vw;
+    margin-left:6vw;
+}
+.t1{
+    font-family:'Montserrat';
+    font-size:2.8vw;
+}
+.list{
+    margin-left:5vw;
+    margin-top:1.5vw;
+}
+.list li{
+    font-size:2.7vw;
+}
+.third span{
+    font-size:2.7vw;
+}
+
+.your-comm{
+    margin-top:8vw;
+    margin-left:6vw;
+    display:flex;
+    height:255px;
+    background-color: #EBF0F0;
+}
+.user-avatar{
+    height:8vw;
+    margin-top:1vw;
+    margin-left:1vw;
+}
+.f1{
+    margin-left:1.1vw;
+    width:100%;
+    height:auto;
+}
+.f2{
+    margin-left:1.1vw;
+    width:100%;
+    height:auto;
+    padding-top:1.5vw;
+}
+.s1{
+    color:grey;
+    font-style:italic;
+    font-size:1.4vw;
+    margin-top:1vw;
+}
+.s2{
+    font-size:2vw;
+}
+.s4{
+    font-size:2vw;
+}
+.s3 {
+    margin-top:1.3vw;
+    width:80%;
+    height: 130px;
+    font-size:25px;
+    resize:none;
+    padding-left:1vw;
+    padding-top:0.5vw;
+}
+.s5{
+    font-size:25px;
+    width:84%;
+    margin-top:1vw;
+}
+.s3::placeholder{
+    font-style: italic;
+}
+
+.fourth{
+    margin-top:6vw;
+    margin-left:6vw;
+    height: 450px;
+    max-height: 440px;
+    overflow-y: auto;
+    background-color:#EBF0F0;
+}
+
+.conkac{
+    display:flex;
+    margin-bottom:1vw;
+}
+
+.fifth{
     margin-top:6vw;
     width:100%;
     margin-bottom:0;
   }
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://fonts.google.com/specimen/Montserrat?query=mo');
+}
+@font-face {
+    font-family: 'Alice';
+    src: url('https://fonts.google.com/specimen/Alice?query=Alice');
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('https://fonts.google.com/specimen/Poppins?query=Poppins');
+}
